@@ -1,0 +1,16 @@
+[
+  {
+    "model": "wallet.wallet",
+    "pk": 1,
+    "fields": {
+      "amount": 10
+    }
+  },
+  {
+    "model": "wallet.wallet",
+    "pk": 2,
+    "fields": {
+      "amount": 20
+    }
+  }
+]

@@ -8,6 +8,16 @@
 - Django Rrest Framework версии 3.12.4
 - Docker версии 28.3.2
 
+## Перед запуском проекта необходимо создать файл wallet_project/.env
+```
+POSTGRES_USER=django_user
+POSTGRES_PASSWORD=mysecretpassword
+POSTGRES_DB=django
+DB_HOST=db
+DB_PORT=5432
+SECRET_KEY=django
+DEBUG=False
+```
 ## Запуск проекта с помощью файла docker compose
 
 Перед запуском проекта на вашей машине должен быть установлен Docker.
